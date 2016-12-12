@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> <!-- ISO-8859-1 para que non teñamos problemas con ñ's, etc-->
+<ui_messages> <!-- User Interface Text: Cadeas de mensaxes usadas para UI e para notificación de erros (todo excepto XML, estes serán os únicos con msg de erro enbebida e en inglés, pois se non se pode cargar isto, non se notificarán ditos erros) -->
+	<item id="lang_name" descr="Identificador: nome do idioma">
+		<data>Galego
+		</data>
+	</item>
+	<item id="normal_error" descr="Erro normal tratable">
+		<data>Produciuse un erro: 
+		</data>
+	</item>
+	<item id="serious_error" descr="Erro grave">
+		<data>Produciuse un erro grave. Fale co administrador do sistema.
+		</data>
+	</item>
+	<item id="invalid_dap_credentials" descr="DAP: Non hai coincidencia no acceso ó directorio">
+		<data>Credenciais inválidas: o nome de usuario ou contrasinal non coinciden cos almacenados no servidor de directorio
+		</data>
+	</item>
+	<item id="mysql_real_connect_error" descr="Erro de conexión mysql">
+		<data>Erro de conexión á base de datos: mysql_real_connect
+		</data>
+	</item>
+	<item id="no_conection_error" descr="Erro de conexión de rede">
+		<data>ERRO GRAVE: non hai conexión. Por favor, fale co administrador da rede.
+		</data>
+	</item>
+	<item id="attempting2connect" descr="Mensaxe: intentando conectar">
+		<data>Intentando conectar. Por favor, espere...
+		</data>
+	</item>
+	
+	<item id="tittle_tag" descr="Label to use: Login name">
+		<data>Breo's XAS Login System. Introduza os datos de usuario
+		</data>
+	</item>
+	
+	<item id="login_tag" descr="Label to use: Login name">
+		<data>Login de usuario? 
+		</data>
+	</item>
+   
+	<item id="pass_tag" descr="Label to use: Password">
+		<data>Contrasinal? 
+		</data>
+	</item>
+   
+	<item id="ok_tag" descr="Label to use: OK">
+		<data>Iniciar sesión
+		</data>
+	</item>
+   
+	<item id="cancel_tag" descr="Label to use: Cancel">
+		<data>Cancelar
+		</data>
+	</item>
+   
+	<item id="restart_tag" descr="Label to use: Restart">
+		<data>Reiniciar Host
+		</data>
+	</item>
+   
+	<item id="shutdown_tag" descr="Label to use: Shutdown">
+		<data>Apagar Host
+		</data>
+	</item>
+   
+	<item id="exception" descr="Exception notification">
+		<data>Excepción durante a execución
+		</data>
+	</item>
+</ui_messages>
+
+<!-- NUMBER_LNG_ITEMS  almacenará- o número de items deste ficheiro, que será 14. Calquera cambio no nº de items, buscar en "lang_galician.xml" dita etiqueta e cambiarlle o valor->
+
+<!-- Editado usando Notepad++ e gedit (GPL) -->

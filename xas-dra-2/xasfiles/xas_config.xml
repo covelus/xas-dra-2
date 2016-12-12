@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> <!-- ISO-8859-1 para que non teñamos problemas con ñ's, etc-->
+<config_items> <!-- Arquivo que garda a configuración usada-->
+	<item id="lang_used_file" descr="File who contains the UI messages and its position in XAS directory (any subdirectory...)">
+		<data>xasfiles/lang_galician.xml
+		</data>
+	</item>
+	<item id="kind_of_lang_file" descr="kind of UI messages file: xml...">
+		<data>xml
+		</data>
+	</item>
+	<item id="dir_dap" descr="Directory Access Protoccol server address">
+		<data>127.0.0.1
+		</data>
+	</item>
+	<item id="kind_of_dap" descr="kind of DAP server: ldap...">
+		<data>ldap
+		</data>
+	</item>
+	<item id="ip_bdMngLabs" descr="laboratory managing data base server ip">
+		<data>127.0.0.1
+		</data>
+	</item>
+	<item id="kind_of_dbms" descr="kind of Data Base Managing System: mysql or oracle">
+		<data>mysql
+		</data>
+	</item>
+	<item id="kind_of_login" descr="kind of login used: shell or gui">
+		<data>shell
+		</data>
+	</item>
+	<item id="kind_of_dbmsConn" descr="kind of connection used to database: insec, ssl...">
+		<data>insec
+		</data>
+	</item>
+</config_items>
+
+<!-- NUMBER_CFG_ITEMS  almacenará- o número de items deste ficheiro, que será 7. Calquera cambio no nº de items, buscar dita etiqueta en "xasConfigStore.h" e cambiarlle o valor-->
+
+<!-- Editado usando Notepad++ (GPL) -->

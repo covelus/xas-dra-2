@@ -1,0 +1,36 @@
+<?xml version="1.0"?><definitions name="LDAP_Service" targetNamespace="urn:LDAP_Service" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:LDAP_Service" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+<types xmlns="http://schemas.xmlsoap.org/wsdl/">
+</types>
+<message name="autentificarRequest">
+<part name="login" type="xsd:string" />
+<part name="password" type="xsd:string" />
+<part name="usuario" type="xsd:string" />
+</message>
+<message name="autentificarResponse">
+<part name="success" type="xsd:string" />
+</message>
+<portType name="LDAP_ServicePort">
+<operation name="autentificar">
+<input message="tns:autentificarRequest" />
+<output message="tns:autentificarResponse" />
+</operation>
+</portType>
+<binding name="LDAP_ServiceBinding" type="tns:LDAP_ServicePort">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http" />
+<operation name="autentificar">
+<soap:operation soapAction="urn:LDAP_Server#ldap_server#autentificar" />
+<input>
+<soap:body use="encoded" namespace="urn:LDAP_Server" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:LDAP_Server" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+</binding>
+<service name="LDAP_ServiceService">
+<documentation />
+<port name="LDAP_ServicePort" binding="tns:LDAP_ServiceBinding">
+<soap:address location="http://172.19.32.8/ws/server.php" />
+</port>
+</service>
+</definitions>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="disable_log_out" mtime="1232278293" type="bool" value="true">
+        </entry>
+</gconf>

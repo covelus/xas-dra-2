@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=xas_exit
+Type=Application
+Terminal=false
+Name[es_ES]=xas_exit
+Exec=/usr/sbin/xas_exit
+Icon[es_ES]=/usr/share/icons/XAS/xas_exit_icon.png
+Icon=/usr/share/icons/XAS/xas_exit_icon.png
+GenericName[es_ES]=
